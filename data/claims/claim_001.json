@@ -1,0 +1,16 @@
+{
+  "claim_id": "CLM-5001",
+  "policy_id": "POL-1001",
+  "claimant": "Alex Morgan",
+  "incident_date": "2026-06-15",
+  "submission_date": "2026-06-18",
+  "claim_type": "Hospitalization",
+  "description": "The policyholder was admitted to hospital following an acute medical emergency and required inpatient treatment.",
+  "hospital_name": "CityCare Hospital",
+  "claimed_amount": 150000,
+  "currency": "INR",
+  "documents": [
+    "hospital_bill.pdf",
+    "discharge_summary.pdf"
+  ]
+}

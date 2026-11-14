@@ -1,0 +1,23 @@
+{
+  "policy_id": "POL-1001",
+  "policyholder": "Alex Morgan",
+  "policy_type": "Health Insurance",
+  "provider": "NorthStar Insurance",
+  "effective_date": "2026-01-01",
+  "expiry_date": "2026-12-31",
+  "sum_insured": 500000,
+  "deductible": 10000,
+  "waiting_period_days": 30,
+  "covered_benefits": [
+    "Hospitalization",
+    "Emergency treatment",
+    "Accidental injuries",
+    "Surgical procedures"
+  ],
+  "exclusions": [
+    "Cosmetic procedures",
+    "Experimental treatments",
+    "Self-inflicted injuries"
+  ],
+  "currency": "INR"
+}

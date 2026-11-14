@@ -1,0 +1,15 @@
+{
+  "claim_id": "CLM-5002",
+  "policy_id": "POL-1001",
+  "claimant": "Alex Morgan",
+  "incident_date": "2026-07-10",
+  "submission_date": "2026-07-12",
+  "claim_type": "Cosmetic procedure",
+  "description": "The policyholder underwent an elective cosmetic procedure and submitted a reimbursement request.",
+  "hospital_name": "CityCare Hospital",
+  "claimed_amount": 80000,
+  "currency": "INR",
+  "documents": [
+    "cosmetic_procedure_bill.pdf"
+  ]
+}
