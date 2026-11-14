@@ -1,0 +1,681 @@
+{
+  "summary": {
+    "questions_evaluated": 30,
+    "k": 3,
+    "hit_rate_at_k": 1,
+    "precision_at_k": 0.37777777777777777,
+    "recall_at_k": 1.0,
+    "mrr_at_k": 0.95,
+    "evidence_attribution_accuracy": 1.0
+  },
+  "results": [
+    {
+      "id": "Q01",
+      "question": "Which insurance company issued this policy?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c1",
+        "policy_001_p1_c2",
+        "policy_001_p1_c5"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q02",
+      "question": "What is the unique identifier of the insurance policy?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c1",
+        "policy_001_p1_c5"
+      ],
+      "relevant_ranks": [
+        2
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q03",
+      "question": "Who is named as the policyholder?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c1",
+        "policy_001_p1_c6",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q04",
+      "question": "When does the insurance coverage become effective?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c1",
+        "policy_001_p1_c4",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q05",
+      "question": "On what date does this policy expire?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c4",
+        "policy_001_p1_c1",
+        "policy_001_p1_c5"
+      ],
+      "relevant_ranks": [
+        2
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q06",
+      "question": "What type of insurance does NorthStar provide in this document?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c1",
+        "policy_001_p1_c2",
+        "policy_001_p1_c5"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q07",
+      "question": "Which medical services and treatments are listed as covered benefits?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c2"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3",
+        "policy_001_p1_c1"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q08",
+      "question": "Does the policy list hospital admission as a covered benefit?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c2"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3",
+        "policy_001_p1_c5"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q09",
+      "question": "Is emergency medical treatment included among the listed benefits?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c2"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3",
+        "policy_001_p1_c1"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q10",
+      "question": "Are injuries resulting from accidents included in the benefits?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c2"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3",
+        "policy_001_p1_c5"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q11",
+      "question": "Are surgical procedures mentioned as covered?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c2"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3",
+        "policy_001_p1_c6"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q12",
+      "question": "Which treatments are explicitly excluded by the policy?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c3"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c3",
+        "policy_001_p1_c2",
+        "policy_001_p1_c6"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q13",
+      "question": "Are cosmetic procedures covered or excluded?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c3"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c3",
+        "policy_001_p1_c2",
+        "policy_001_p1_c6"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q14",
+      "question": "What does the policy say about experimental treatments?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c3"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c3",
+        "policy_001_p1_c2",
+        "policy_001_p1_c6"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q15",
+      "question": "How are self-inflicted injuries treated under the exclusions?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c3"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c3",
+        "policy_001_p1_c2",
+        "policy_001_p1_c4"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q16",
+      "question": "How long is the general waiting period?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c4"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c4",
+        "policy_001_p1_c1",
+        "policy_001_p1_c6"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q17",
+      "question": "From which date is the waiting period calculated?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c4"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c4",
+        "policy_001_p1_c1",
+        "policy_001_p1_c6"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q18",
+      "question": "What happens when a claim arises from an incident during the waiting period?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c4"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c4",
+        "policy_001_p1_c6",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q19",
+      "question": "What is the maximum insurance coverage amount stated in the contract?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c5"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c5",
+        "policy_001_p1_c1",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q20",
+      "question": "How much is the deductible under this policy?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c5"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c5",
+        "policy_001_p1_c1",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q21",
+      "question": "Does the policy guarantee that the entire sum insured will be payable?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c5"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c5",
+        "policy_001_p1_c2",
+        "policy_001_p1_c1"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q22",
+      "question": "What additional assessment is required to establish the actual payable amount?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c5"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 0.5,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c6",
+        "policy_001_p1_c5",
+        "policy_001_p1_c4"
+      ],
+      "relevant_ranks": [
+        2
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q23",
+      "question": "What checks must every submitted insurance claim undergo?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c6"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c6",
+        "policy_001_p1_c5",
+        "policy_001_p1_c4"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q24",
+      "question": "Does the claim process include reviewing submitted documents?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c6"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c6",
+        "policy_001_p1_c4",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q25",
+      "question": "Is human review part of the claim assessment process?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c6"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c6",
+        "policy_001_p1_c4",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q26",
+      "question": "Does having this policy guarantee that a submitted claim will be approved?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c6"
+      ],
+      "hit": true,
+      "precision": 0.3333333333333333,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 1,
+      "expected_count": 1,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c6",
+        "policy_001_p1_c4",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q27",
+      "question": "What are the policy's stated maximum coverage and deductible amounts?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1",
+        "policy_001_p1_c5"
+      ],
+      "hit": true,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 2,
+      "expected_count": 2,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c5",
+        "policy_001_p1_c2",
+        "policy_001_p1_c1"
+      ],
+      "relevant_ranks": [
+        1,
+        3
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q28",
+      "question": "What are the policy's effective and expiry dates, and what general waiting period applies?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c1",
+        "policy_001_p1_c4"
+      ],
+      "hit": true,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 2,
+      "expected_count": 2,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c4",
+        "policy_001_p1_c2",
+        "policy_001_p1_c1"
+      ],
+      "relevant_ranks": [
+        1,
+        3
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q29",
+      "question": "How do the listed covered benefits differ from the treatments explicitly excluded?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3"
+      ],
+      "hit": true,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 2,
+      "expected_count": 2,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c2",
+        "policy_001_p1_c3",
+        "policy_001_p1_c1"
+      ],
+      "relevant_ranks": [
+        1,
+        2
+      ],
+      "attribution_accuracy": 1.0
+    },
+    {
+      "id": "Q30",
+      "question": "Which policy conditions and review requirements can affect the assessment of a submitted claim?",
+      "expected_chunk_ids": [
+        "policy_001_p1_c4",
+        "policy_001_p1_c6"
+      ],
+      "hit": true,
+      "precision": 0.6666666666666666,
+      "recall": 1.0,
+      "reciprocal_rank": 1.0,
+      "relevant_found": 2,
+      "expected_count": 2,
+      "retrieved_chunk_ids": [
+        "policy_001_p1_c6",
+        "policy_001_p1_c4",
+        "policy_001_p1_c2"
+      ],
+      "relevant_ranks": [
+        1,
+        2
+      ],
+      "attribution_accuracy": 1.0
+    }
+  ]
+}

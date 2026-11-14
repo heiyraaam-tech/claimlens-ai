@@ -1,0 +1,216 @@
+[
+  {
+    "id": "Q01",
+    "question": "Which insurance company issued this policy?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1"
+    ]
+  },
+  {
+    "id": "Q02",
+    "question": "What is the unique identifier of the insurance policy?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1"
+    ]
+  },
+  {
+    "id": "Q03",
+    "question": "Who is named as the policyholder?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1"
+    ]
+  },
+  {
+    "id": "Q04",
+    "question": "When does the insurance coverage become effective?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1"
+    ]
+  },
+  {
+    "id": "Q05",
+    "question": "On what date does this policy expire?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1"
+    ]
+  },
+  {
+    "id": "Q06",
+    "question": "What type of insurance does NorthStar provide in this document?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1"
+    ]
+  },
+  {
+    "id": "Q07",
+    "question": "Which medical services and treatments are listed as covered benefits?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c2"
+    ]
+  },
+  {
+    "id": "Q08",
+    "question": "Does the policy list hospital admission as a covered benefit?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c2"
+    ]
+  },
+  {
+    "id": "Q09",
+    "question": "Is emergency medical treatment included among the listed benefits?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c2"
+    ]
+  },
+  {
+    "id": "Q10",
+    "question": "Are injuries resulting from accidents included in the benefits?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c2"
+    ]
+  },
+  {
+    "id": "Q11",
+    "question": "Are surgical procedures mentioned as covered?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c2"
+    ]
+  },
+  {
+    "id": "Q12",
+    "question": "Which treatments are explicitly excluded by the policy?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c3"
+    ]
+  },
+  {
+    "id": "Q13",
+    "question": "Are cosmetic procedures covered or excluded?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c3"
+    ]
+  },
+  {
+    "id": "Q14",
+    "question": "What does the policy say about experimental treatments?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c3"
+    ]
+  },
+  {
+    "id": "Q15",
+    "question": "How are self-inflicted injuries treated under the exclusions?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c3"
+    ]
+  },
+  {
+    "id": "Q16",
+    "question": "How long is the general waiting period?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c4"
+    ]
+  },
+  {
+    "id": "Q17",
+    "question": "From which date is the waiting period calculated?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c4"
+    ]
+  },
+  {
+    "id": "Q18",
+    "question": "What happens when a claim arises from an incident during the waiting period?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c4"
+    ]
+  },
+  {
+    "id": "Q19",
+    "question": "What is the maximum insurance coverage amount stated in the contract?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c5"
+    ]
+  },
+  {
+    "id": "Q20",
+    "question": "How much is the deductible under this policy?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c5"
+    ]
+  },
+  {
+    "id": "Q21",
+    "question": "Does the policy guarantee that the entire sum insured will be payable?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c5"
+    ]
+  },
+  {
+    "id": "Q22",
+    "question": "What additional assessment is required to establish the actual payable amount?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c5"
+    ]
+  },
+  {
+    "id": "Q23",
+    "question": "What checks must every submitted insurance claim undergo?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c6"
+    ]
+  },
+  {
+    "id": "Q24",
+    "question": "Does the claim process include reviewing submitted documents?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c6"
+    ]
+  },
+  {
+    "id": "Q25",
+    "question": "Is human review part of the claim assessment process?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c6"
+    ]
+  },
+  {
+    "id": "Q26",
+    "question": "Does having this policy guarantee that a submitted claim will be approved?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c6"
+    ]
+  },
+  {
+    "id": "Q27",
+    "question": "What are the policy's stated maximum coverage and deductible amounts?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1",
+      "policy_001_p1_c5"
+    ]
+  },
+  {
+    "id": "Q28",
+    "question": "What are the policy's effective and expiry dates, and what general waiting period applies?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c1",
+      "policy_001_p1_c4"
+    ]
+  },
+  {
+    "id": "Q29",
+    "question": "How do the listed covered benefits differ from the treatments explicitly excluded?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c2",
+      "policy_001_p1_c3"
+    ]
+  },
+  {
+    "id": "Q30",
+    "question": "Which policy conditions and review requirements can affect the assessment of a submitted claim?",
+    "expected_chunk_ids": [
+      "policy_001_p1_c4",
+      "policy_001_p1_c6"
+    ]
+  }
+]
